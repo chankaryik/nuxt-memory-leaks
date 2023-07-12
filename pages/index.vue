@@ -1,10 +1,9 @@
 <template>
 	<h1>
-		test
-		<!-- {{ data }} -->
+		{{ data }}
 	</h1>
 </template>
 
 <script setup lang="ts">
-// const { data } = await useFetch('https://jsonplaceholder.typicode.com/todos/1');
+const { data } = await useFetch('https://jsonplaceholder.typicode.com/todos/1');
 </script>
