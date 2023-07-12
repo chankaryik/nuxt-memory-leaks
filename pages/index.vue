@@ -1,9 +1,10 @@
 <template>
-    <div>
-        <NuxtLink href="/todos/1">Go to leak page</NuxtLink>
-    </div>
+	<h1>
+		test
+		<!-- {{ data }} -->
+	</h1>
 </template>
 
-<script lang="ts" setup>
-
+<script setup lang="ts">
+// const { data } = await useFetch('https://jsonplaceholder.typicode.com/todos/1');
 </script>
